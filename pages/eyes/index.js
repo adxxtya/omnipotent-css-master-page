@@ -43,12 +43,12 @@ export default function MyComponent() {
       <div
               style={{ position: 'relative' }}
       >
-        <Image src="/assets/eyes/gopher-eyeless.png" width={100} height={150} ref={anchorRef} />
-        <div style={{ position: 'absolute', top: '65px', left: '6px' }}>
-          <Image src="/assets/eyes/eyes-rectangular.png" width={30} height={15} ref={(el) => (eyesRef.current[0] = el)} />
+        <Image src="/assets/eyes/gopher-eyeless.png" width={60} height={80} ref={anchorRef} />
+        <div style={{ position: 'absolute', top: '25px', left: '5px' }}>
+          <Image src="/assets/eyes/eyes-rectangular.png" width={16} height={9} ref={(el) => (eyesRef.current[0] = el)} />
         </div>
-        <div style={{ position: 'absolute', top: '65px', left: '66px' }}>
-          <Image src="/assets/eyes/eyes-rectangular.png" width={30} height={15} ref={(el) => (eyesRef.current[1] = el)} />
+        <div style={{ position: 'absolute', top: '25px', left: '41px' }}>
+          <Image src="/assets/eyes/eyes-rectangular.png" width={16} height={9} ref={(el) => (eyesRef.current[1] = el)} />
         </div>
       </div>
     </div>
