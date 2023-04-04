@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useState, useEffect, useRef } from 'react';
 
-export default function MyComponent() {
+function Eyes() {
   const eyesRef = useRef([]);
   const anchorRef = useRef(null);
 
@@ -43,14 +43,16 @@ export default function MyComponent() {
       <div
               style={{ position: 'relative' }}
       >
-        <Image src="/assets/eyes/gopher-eyeless.png" width={60} height={80} ref={anchorRef} />
-        <div style={{ position: 'absolute', top: '25px', left: '5px' }}>
-          <Image src="/assets/eyes/eyes-rectangular-png.png" width={16} height={9} ref={(el) => (eyesRef.current[0] = el)} />
+        <Image src="/assets/eyes/eyeless/gopher-coffee-eyeless.png" width={85} height={90} ref={anchorRef} />
+        <div style={{ position: 'absolute', top: '23px', left: '12px' }}>
+          <Image src="/assets/eyes/eyes/eyes-rectangular-png.png" width={20} height={12} ref={(el) => (eyesRef.current[0] = el)} />
         </div>
-        <div style={{ position: 'absolute', top: '25px', left: '41px' }}>
-          <Image src="/assets/eyes/eyes-rectangular-png.png" width={16} height={9} ref={(el) => (eyesRef.current[1] = el)} />
+        <div style={{ position: 'absolute', top: '23px', left: '58px' }}>
+          <Image src="/assets/eyes/eyes/eyes-rectangular-png.png" width={20} height={12} ref={(el) => (eyesRef.current[1] = el)} />
         </div>
       </div>
     </div>
   );
 }
+
+export default Eyes;
