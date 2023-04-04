@@ -9,8 +9,9 @@ export default function Home() {
       </div>
       <div style={{ marginTop: "240px" }}>
         <text style={{ fontSize: "54px", fontFamily: "Nunito", padding: "8px" }}>Gopher</text>
-        Gopher Carouse;
+        Gopher Carousel
       </div>
     </div>
   );
 }
+  
