@@ -43,12 +43,12 @@ function Eyes() {
       <div
               style={{ position: 'relative' }}
       >
-        <Image src="/assets/eyes/gopher-waiter-eyeless.png" width={105} height={90} ref={anchorRef} />
+        <Image src="/assets/eyes/eyeless/gopher-waiter-eyeless.png" width={105} height={90} ref={anchorRef} />
         <div style={{ position: 'absolute', top: '22px', left: '8px' }}>
-          <Image src="/assets/eyes/eyes-rectangular-png.png" width={20} height={12} ref={(el) => (eyesRef.current[0] = el)} />
+          <Image src="/assets/eyes/eyes/eyes-rectangular-png.png" width={20} height={12} ref={(el) => (eyesRef.current[0] = el)} />
         </div>
         <div style={{ position: 'absolute', top: '22px', left: '54px' }}>
-          <Image src="/assets/eyes/eyes-rectangular-png.png" width={20} height={12} ref={(el) => (eyesRef.current[1] = el)} />
+          <Image src="/assets/eyes/eyes/eyes-rectangular-png.png" width={20} height={12} ref={(el) => (eyesRef.current[1] = el)} />
         </div>
       </div>
     </div>

@@ -43,11 +43,11 @@ function Eyes() {
       <div
               style={{ position: 'relative' }}
       >
-        <Image src="/assets/eyes/eyeless/gopher-gamer-eyeless.png" width={85} height={90} ref={anchorRef} />
-        <div style={{ position: 'absolute', top: '21px', left: '10px' }}>
+        <Image src="/assets/eyes/eyeless/gopher-drink-eyeless.png" width={85} height={90} ref={anchorRef} />
+        <div style={{ position: 'absolute', top: '22px', left: '10px' }}>
           <Image src="/assets/eyes/eyes/eyes-rectangular-png.png" width={20} height={12} ref={(el) => (eyesRef.current[0] = el)} />
         </div>
-        <div style={{ position: 'absolute', top: '21px', left: '58px' }}>
+        <div style={{ position: 'absolute', top: '22px', left: '58px' }}>
           <Image src="/assets/eyes/eyes/eyes-rectangular-png.png" width={20} height={12} ref={(el) => (eyesRef.current[1] = el)} />
         </div>
       </div>

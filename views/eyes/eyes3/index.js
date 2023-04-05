@@ -45,10 +45,10 @@ function Eyes() {
       >
         <Image style={{ position: 'absolute', top: '-10px', left: '-8px' }} src="/assets/eyes/eyeless/gopher-skull-eyeless.png" width={90} height={90} ref={anchorRef} />
         <div style={{ position: 'absolute', top: '23px', left: '10px' }}>
-          <Image src="/assets/eyes/eyes-rectangular-png.png" width={16} height={10} ref={(el) => (eyesRef.current[0] = el)} />
+          <Image src="/assets/eyes/eyes/eyes-rectangular-png.png" width={16} height={10} ref={(el) => (eyesRef.current[0] = el)} />
         </div>
         <div style={{ position: 'absolute', top: '23px', left: '50px' }}>
-          <Image src="/assets/eyes/eyes-rectangular-png.png" width={16} height={10} ref={(el) => (eyesRef.current[1] = el)} />
+          <Image src="/assets/eyes/eyes/eyes-rectangular-png.png" width={16} height={10} ref={(el) => (eyesRef.current[1] = el)} />
         </div>
       </div>
     </div>

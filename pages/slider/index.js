@@ -19,7 +19,7 @@ function ImageSlider(props) {
     const maxDelta = window.innerWidth / 2;
 
     const nextPercentageUnconstrained =
-      parseFloat(prevPercentage) + (mouseDelta / maxDelta) * -100;
+      parseFloat(prevPercentage) + (mouseDelta / maxDelta) * -50;
     const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
 
     setPercentage(nextPercentage);
@@ -60,7 +60,7 @@ function ImageSlider(props) {
       onMouseMove={handleOnMove}
       data-mouse-down-at={mouseDownAt}
       data-prev-percentage={prevPercentage}
-        style={{
+              style={{
         display: "flex",
         gap: "4vmin",
         position: "absolute",
