@@ -15,7 +15,7 @@ export default function Home() {
         <Slider />
       </div>
       <div style={{ marginTop: "240px" }}>
-        <Link href={href}><text style={{ fontSize: "54px", fontFamily: "Nunito", padding: "8px" }}>Gophers</text></Link>
+        <Link href={href}><text style={{ paddingLeft: "16px", fontSize: "54px", fontFamily: "Nunito", padding: "8px" }}>Gophers</text></Link>
         <CarouselCards />
       </div>
     </div>
