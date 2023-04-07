@@ -65,7 +65,7 @@ function ImageSlider(props) {
         display: "flex",
         gap: "3vmin",
         position: "absolute",
-        left: "20%",
+        left: "40%",
         top: "35%",
         transform: `translate(${percentage}%, -50%)`,
         userSelect: "none",

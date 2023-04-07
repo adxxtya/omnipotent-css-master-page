@@ -13,8 +13,8 @@
 
 .carousel {
   position: relative;
-  width: 15rem;
-  height: 15rem;
+  width: 25rem;
+  height: 25rem;
   perspective: 500px;
   transform-style: preserve-3d;
 }

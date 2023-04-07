@@ -2,6 +2,7 @@ import Head from 'next/head'
 import '../styles/globals.css'
 import '../styles/slider.css'
 import '../styles/card.css'
+import '../styles/cardHover.css'
 
 function MyApp({ Component, pageProps }) {
   return (
